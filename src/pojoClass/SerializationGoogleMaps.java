@@ -36,6 +36,7 @@ public class SerializationGoogleMaps {
 		GM.setPhone_number("(+91) 983 893 3937");
 		GM.setWebsite("http://google.com");
 	
+		System.out.println("pooja");
 		
 		String Responce = given().queryParam("key", "qaclick123").body(GM).
 				when().post("/maps/api/place/add/json").
